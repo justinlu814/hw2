@@ -1,0 +1,28 @@
+Justin Lu
+ID: 5004242619
+CS104 HW2
+
+Problem 1
+(a) README.md = Untracked
+(b) README.md = Modified
+    fun_problem.txt = Untracked
+(c) README.md = Staged
+    fun_problem.txt = Staged
+(d) README.md = modified
+    fun_problem.txt = modified
+(e) README.md = Staged
+    fun_problem.txt = Untracked
+    The contents of fun_problem.txt are empty because we used git checkout which navigates to a 
+    different branch. Because of this, the contents of fun_problem are moved.  
+(f) README.md = modified
+    After staging the README.md file to be pushed, we edited its contents again so it needs to be restaged, therefore its status is "modified".
+
+Problem 6 (Note: For all instances I use big- "O" i mean theta)
+
+1. bool empty() const:	O(1) [constant]
+2. void push (const double& val) :	O(1)
+3. double const& top() const: O(1) [constant]
+4. void pop(): O(1) [constant]
+
+For All functions, the big theta notation is a polynomial, which is the most efficient because it runs the same number of steps each time because we are only looking at the head or top of the stack. 
+
